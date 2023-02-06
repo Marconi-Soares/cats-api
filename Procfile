@@ -1,0 +1,1 @@
+web: python cats/manage.py migrate && gunicorn --chdir cats/ cats.wsgi
